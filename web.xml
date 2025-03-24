@@ -1,0 +1,11 @@
+<web-app>
+		<servlet>
+			<servlet-name>calc</servlet-name>
+			<servlet-class>com.nit.pc.servlets.CalcServlet</servlet-class>
+		</servlet>	
+		
+		<servlet-mapping>
+			<servlet-name>calc</servlet-name>
+			<url-pattern>/cs</url-pattern>
+		</servlet-mapping>	
+	</web-app>	
